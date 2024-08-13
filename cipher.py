@@ -23,7 +23,7 @@ def shift(offset):
             new_message += letter
 
         else:
-            print("An error took place in recording the message. Check input.\n")
+            print()
 
     print(alphabet)
 
