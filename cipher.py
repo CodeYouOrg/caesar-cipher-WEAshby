@@ -2,7 +2,7 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n',
 
 def shift(offset):
 
-    message = input()
+    message = input("udymts nx kzs!:/n")
     new_message = ''
 
     for letter in message:
@@ -23,7 +23,7 @@ def shift(offset):
             new_message += letter
 
         else:
-            print()
+            print ("python is fun:/n")
 
     print(alphabet)
 
