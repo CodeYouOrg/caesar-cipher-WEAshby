@@ -3,7 +3,7 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n',
 def shift(offset):
 
     sentence = input("enter sentence")
-    new_sentence = '"udymts nx kzs!"'
+    new_sentence = '"'
 
     for letter in sentence:
 
