@@ -2,30 +2,30 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n',
 
 def shift(offset):
 
-    message = input("udymts nx kzs!:/n")
-    new_message = ''
+    sentence = input("enter sentence")
+    new_sentence = '"udymts nx kzs!"'
 
-    for letter in message:
+    for letter in sentence:
 
         letter = letter.lower() 
 
         if letter.isalpha():
             shift_pos = alphabet.index(letter) + offset
             new_pos = alphabet[shift_pos]
-            new_message += new_pos
+            new_sentence += new_pos
 
         
 
         elif ' ' or '/t' or '/n' in letter: 
-            new_message += letter
+            new_sentence += letter
 
         elif letter.isnumeric(): 
-            new_message += letter
+            new_sentence += letter
 
         else:
-            print ("python is fun:/n")
+            print ("python is fun")
 
-    print(alphabet)
+    print(new_sentence)
 
 
-shift(-5)
+shift(-21)
